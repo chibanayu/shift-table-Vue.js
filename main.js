@@ -7,6 +7,7 @@ Vue.createApp({
   //     this.member;
   //   }
   // }
+  //コメントアウト
   methods:{
       'random': function(){
         let rnd = Math.floor(Math.random() * this.member.length);
