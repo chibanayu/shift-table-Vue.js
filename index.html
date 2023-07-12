@@ -8,7 +8,7 @@
         <title>シフト表自動作成(Vue.js)</title>
     </head>
     <body>
-        <div id="app">
+        <div id="app" class="df">
             <div class="tbl">
                 <table>
                     <thead>
@@ -22,19 +22,19 @@
                     </thead>
                     <tbody id="list">
                         <tr v-for="item in member" v-bind:key="item.member">
-                        <td>{{member}}</td>
-                        <td>{{member}}</td>
-                        <td>{{member}}</td>
-                        <td>{{member}}</td>
-                        <td>{{member}}</td>
-                    </tr>
+                            <td>{{member}}</td>
+                            <td>{{member}}</td>
+                            <td>{{member}}</td>
+                            <td>{{member}}</td>
+                            <td>{{member}}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
             <div class="btn">
                 <button v-on:click="btnClick">ボタン</button>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/vue@3.2.37/dist/vue.global.js"></script>
-        <script src="main.js"></script>
+            </div>
     </body>
-    </html>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.37/dist/vue.global.js"></script>
+    <script src="main.js"></script>
+</html>
