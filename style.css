@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+table, th, td {
+  border: 1px #111 solid;
+  border-collapse: collapse;
+}
+
+th {
+  color: #fff;
+  background-color: #777;
+  width: 110px;
+}
+
+td {
+  text-align: center;
+}
+
+button{
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+body {
+  display: flex;
+}
+
+tbody {
+  word-spacing: 20px;
+}
