@@ -21,12 +21,13 @@
                         </tr>
                     </thead>
                     <tbody id="list">
-                        <tr v-for="n in 6"></tr>
-                        <td>{{ random() }}</td>
-                        <td>{{ random() }}</td>
-                        <td>{{ random() }}</td>
-                        <td>{{ random() }}</td>
-                        <td>{{ random() }}</td>
+                        <tr v-for="item in member" v-bind:key="item.member">
+                        <td>{{member}}</td>
+                        <td>{{member}}</td>
+                        <td>{{member}}</td>
+                        <td>{{member}}</td>
+                        <td>{{member}}</td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
